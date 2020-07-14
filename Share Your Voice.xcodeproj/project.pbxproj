@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BD24BE3246009ACA71 /* AppDelegate.swift */; };
+		52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */; };
+		52FF39C224BE3246009ACA71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39C124BE3246009ACA71 /* ViewController.swift */; };
+		52FF39C524BE3246009ACA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF39C324BE3246009ACA71 /* Main.storyboard */; };
+		52FF39C824BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39C624BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld */; };
+		52FF39CA24BE324C009ACA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FF39C924BE324C009ACA71 /* Assets.xcassets */; };
+		52FF39CD24BE324C009ACA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF39CB24BE324C009ACA71 /* LaunchScreen.storyboard */; };
+		52FF39D824BE324D009ACA71 /* Share_Your_VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39D724BE324D009ACA71 /* Share_Your_VoiceTests.swift */; };
+		52FF39E324BE324D009ACA71 /* Share_Your_VoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39E224BE324D009ACA71 /* Share_Your_VoiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FF39D424BE324D009ACA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FF39B224BE3246009ACA71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FF39B924BE3246009ACA71;
+			remoteInfo = "Share Your Voice";
+		};
+		52FF39DF24BE324D009ACA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FF39B224BE3246009ACA71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FF39B924BE3246009ACA71;
+			remoteInfo = "Share Your Voice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52FF39BA24BE3246009ACA71 /* Share Your Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Your Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF39BD24BE3246009ACA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52FF39C124BE3246009ACA71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FF39C424BE3246009ACA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FF39C724BE3246009ACA71 /* Share_Your_Voice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Share_Your_Voice.xcdatamodel; sourceTree = "<group>"; };
+		52FF39C924BE324C009ACA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FF39CC24BE324C009ACA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FF39CE24BE324C009ACA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF39D324BE324D009ACA71 /* Share Your VoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Share Your VoiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF39D724BE324D009ACA71 /* Share_Your_VoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share_Your_VoiceTests.swift; sourceTree = "<group>"; };
+		52FF39D924BE324D009ACA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF39DE24BE324D009ACA71 /* Share Your VoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Share Your VoiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF39E224BE324D009ACA71 /* Share_Your_VoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share_Your_VoiceUITests.swift; sourceTree = "<group>"; };
+		52FF39E424BE324D009ACA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FF39B724BE3246009ACA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39D024BE324D009ACA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39DB24BE324D009ACA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FF39B124BE3246009ACA71 = {
+			isa = PBXGroup;
+			children = (
+				52FF39BC24BE3246009ACA71 /* Share Your Voice */,
+				52FF39D624BE324D009ACA71 /* Share Your VoiceTests */,
+				52FF39E124BE324D009ACA71 /* Share Your VoiceUITests */,
+				52FF39BB24BE3246009ACA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FF39BB24BE3246009ACA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FF39BA24BE3246009ACA71 /* Share Your Voice.app */,
+				52FF39D324BE324D009ACA71 /* Share Your VoiceTests.xctest */,
+				52FF39DE24BE324D009ACA71 /* Share Your VoiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FF39BC24BE3246009ACA71 /* Share Your Voice */ = {
+			isa = PBXGroup;
+			children = (
+				52FF39BD24BE3246009ACA71 /* AppDelegate.swift */,
+				52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */,
+				52FF39C124BE3246009ACA71 /* ViewController.swift */,
+				52FF39C324BE3246009ACA71 /* Main.storyboard */,
+				52FF39C924BE324C009ACA71 /* Assets.xcassets */,
+				52FF39CB24BE324C009ACA71 /* LaunchScreen.storyboard */,
+				52FF39CE24BE324C009ACA71 /* Info.plist */,
+				52FF39C624BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld */,
+			);
+			path = "Share Your Voice";
+			sourceTree = "<group>";
+		};
+		52FF39D624BE324D009ACA71 /* Share Your VoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FF39D724BE324D009ACA71 /* Share_Your_VoiceTests.swift */,
+				52FF39D924BE324D009ACA71 /* Info.plist */,
+			);
+			path = "Share Your VoiceTests";
+			sourceTree = "<group>";
+		};
+		52FF39E124BE324D009ACA71 /* Share Your VoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52FF39E224BE324D009ACA71 /* Share_Your_VoiceUITests.swift */,
+				52FF39E424BE324D009ACA71 /* Info.plist */,
+			);
+			path = "Share Your VoiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FF39B924BE3246009ACA71 /* Share Your Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF39E724BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your Voice" */;
+			buildPhases = (
+				52FF39B624BE3246009ACA71 /* Sources */,
+				52FF39B724BE3246009ACA71 /* Frameworks */,
+				52FF39B824BE3246009ACA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Share Your Voice";
+			productName = "Share Your Voice";
+			productReference = 52FF39BA24BE3246009ACA71 /* Share Your Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FF39D224BE324D009ACA71 /* Share Your VoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF39EA24BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your VoiceTests" */;
+			buildPhases = (
+				52FF39CF24BE324D009ACA71 /* Sources */,
+				52FF39D024BE324D009ACA71 /* Frameworks */,
+				52FF39D124BE324D009ACA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FF39D524BE324D009ACA71 /* PBXTargetDependency */,
+			);
+			name = "Share Your VoiceTests";
+			productName = "Share Your VoiceTests";
+			productReference = 52FF39D324BE324D009ACA71 /* Share Your VoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FF39DD24BE324D009ACA71 /* Share Your VoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF39ED24BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your VoiceUITests" */;
+			buildPhases = (
+				52FF39DA24BE324D009ACA71 /* Sources */,
+				52FF39DB24BE324D009ACA71 /* Frameworks */,
+				52FF39DC24BE324D009ACA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FF39E024BE324D009ACA71 /* PBXTargetDependency */,
+			);
+			name = "Share Your VoiceUITests";
+			productName = "Share Your VoiceUITests";
+			productReference = 52FF39DE24BE324D009ACA71 /* Share Your VoiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FF39B224BE3246009ACA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tajh Martin";
+				TargetAttributes = {
+					52FF39B924BE3246009ACA71 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					52FF39D224BE324D009ACA71 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 52FF39B924BE3246009ACA71;
+					};
+					52FF39DD24BE324D009ACA71 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 52FF39B924BE3246009ACA71;
+					};
+				};
+			};
+			buildConfigurationList = 52FF39B524BE3246009ACA71 /* Build configuration list for PBXProject "Share Your Voice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FF39B124BE3246009ACA71;
+			productRefGroup = 52FF39BB24BE3246009ACA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FF39B924BE3246009ACA71 /* Share Your Voice */,
+				52FF39D224BE324D009ACA71 /* Share Your VoiceTests */,
+				52FF39DD24BE324D009ACA71 /* Share Your VoiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FF39B824BE3246009ACA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF39CD24BE324C009ACA71 /* LaunchScreen.storyboard in Resources */,
+				52FF39CA24BE324C009ACA71 /* Assets.xcassets in Resources */,
+				52FF39C524BE3246009ACA71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39D124BE324D009ACA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39DC24BE324D009ACA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FF39B624BE3246009ACA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF39C224BE3246009ACA71 /* ViewController.swift in Sources */,
+				52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */,
+				52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */,
+				52FF39C824BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39CF24BE324D009ACA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF39D824BE324D009ACA71 /* Share_Your_VoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FF39DA24BE324D009ACA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF39E324BE324D009ACA71 /* Share_Your_VoiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FF39D524BE324D009ACA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FF39B924BE3246009ACA71 /* Share Your Voice */;
+			targetProxy = 52FF39D424BE324D009ACA71 /* PBXContainerItemProxy */;
+		};
+		52FF39E024BE324D009ACA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FF39B924BE3246009ACA71 /* Share Your Voice */;
+			targetProxy = 52FF39DF24BE324D009ACA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FF39C324BE3246009ACA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FF39C424BE3246009ACA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FF39CB24BE324C009ACA71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FF39CC24BE324C009ACA71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FF39E524BE324D009ACA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FF39E624BE324D009ACA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FF39E824BE324D009ACA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your Voice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-Voice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FF39E924BE324D009ACA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your Voice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-Voice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52FF39EB24BE324D009ACA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your VoiceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-VoiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Share Your Voice.app/Share Your Voice";
+			};
+			name = Debug;
+		};
+		52FF39EC24BE324D009ACA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your VoiceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-VoiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Share Your Voice.app/Share Your Voice";
+			};
+			name = Release;
+		};
+		52FF39EE24BE324D009ACA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your VoiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-VoiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Share Your Voice";
+			};
+			name = Debug;
+		};
+		52FF39EF24BE324D009ACA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Share Your VoiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TajhMartin.Share-Your-VoiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Share Your Voice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FF39B524BE3246009ACA71 /* Build configuration list for PBXProject "Share Your Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF39E524BE324D009ACA71 /* Debug */,
+				52FF39E624BE324D009ACA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF39E724BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF39E824BE324D009ACA71 /* Debug */,
+				52FF39E924BE324D009ACA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF39EA24BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your VoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF39EB24BE324D009ACA71 /* Debug */,
+				52FF39EC24BE324D009ACA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF39ED24BE324D009ACA71 /* Build configuration list for PBXNativeTarget "Share Your VoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF39EE24BE324D009ACA71 /* Debug */,
+				52FF39EF24BE324D009ACA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52FF39C624BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52FF39C724BE3246009ACA71 /* Share_Your_Voice.xcdatamodel */,
+			);
+			currentVersion = 52FF39C724BE3246009ACA71 /* Share_Your_Voice.xcdatamodel */;
+			path = Share_Your_Voice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52FF39B224BE3246009ACA71 /* Project object */;
+}
