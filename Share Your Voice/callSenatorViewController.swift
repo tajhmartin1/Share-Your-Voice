@@ -10,8 +10,9 @@ import UIKit
 
 class callSenatorViewController: UIViewController {
 
+   
     @IBOutlet weak var senatorTextField1: UITextField!
-        
+    
     @IBOutlet weak var senatorTextField2: UITextField!
     
     override func viewDidLoad() {
@@ -26,7 +27,7 @@ class callSenatorViewController: UIViewController {
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
-    
+
     @IBAction func callHawley(_ sender: Any) {
         if let url = URL(string: "tel://\(senatorTextField2.text!)"),
         UIApplication.shared.canOpenURL(url) {
