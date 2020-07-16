@@ -34,4 +34,6 @@ class callSenatorViewController: UIViewController {
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
     }
+  
 }
+
