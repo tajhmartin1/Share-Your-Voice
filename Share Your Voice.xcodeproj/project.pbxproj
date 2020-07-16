@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1873FAA524BF5DD90005480B /* callSenatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873FAA424BF5DD90005480B /* callSenatorViewController.swift */; };
+		1873FAA724C0AAE50005480B /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873FAA624C0AAE50005480B /* petitionsViewController.swift */; };
 		52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BD24BE3246009ACA71 /* AppDelegate.swift */; };
 		52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */; };
 		52FF39C224BE3246009ACA71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39C124BE3246009ACA71 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		1873FAA424BF5DD90005480B /* callSenatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callSenatorViewController.swift; sourceTree = "<group>"; };
+		1873FAA624C0AAE50005480B /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
 		52FF39BA24BE3246009ACA71 /* Share Your Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Your Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FF39BD24BE3246009ACA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */,
 				52FF39C124BE3246009ACA71 /* ViewController.swift */,
 				52FF39C324BE3246009ACA71 /* Main.storyboard */,
+				1873FAA624C0AAE50005480B /* petitionsViewController.swift */,
 				1873FAA424BF5DD90005480B /* callSenatorViewController.swift */,
 				52FF39C924BE324C009ACA71 /* Assets.xcassets */,
 				52FF39CB24BE324C009ACA71 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				1873FAA524BF5DD90005480B /* callSenatorViewController.swift in Sources */,
 				52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */,
 				52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */,
+				1873FAA724C0AAE50005480B /* petitionsViewController.swift in Sources */,
 				52FF39C824BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
