@@ -11,6 +11,8 @@
 		1873FAA724C0AAE50005480B /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873FAA624C0AAE50005480B /* petitionsViewController.swift */; };
 		189A80D024C12B9F0030162A /* donationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A80CF24C12B9F0030162A /* donationsViewController.swift */; };
 		189A80D224C1366D0030162A /* beautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A80D124C1366D0030162A /* beautyViewController.swift */; };
+		189A80D424C155B00030162A /* clothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A80D324C155B00030162A /* clothingViewController.swift */; };
+		189A80D624C15A650030162A /* restaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A80D524C15A650030162A /* restaurantsViewController.swift */; };
 		52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BD24BE3246009ACA71 /* AppDelegate.swift */; };
 		52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */; };
 		52FF39C224BE3246009ACA71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF39C124BE3246009ACA71 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 		1873FAA624C0AAE50005480B /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
 		189A80CF24C12B9F0030162A /* donationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donationsViewController.swift; sourceTree = "<group>"; };
 		189A80D124C1366D0030162A /* beautyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beautyViewController.swift; sourceTree = "<group>"; };
+		189A80D324C155B00030162A /* clothingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothingViewController.swift; sourceTree = "<group>"; };
+		189A80D524C15A650030162A /* restaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantsViewController.swift; sourceTree = "<group>"; };
 		52FF39BA24BE3246009ACA71 /* Share Your Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Share Your Voice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FF39BD24BE3246009ACA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52FF39BF24BE3246009ACA71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				189A80CF24C12B9F0030162A /* donationsViewController.swift */,
 				189A80D124C1366D0030162A /* beautyViewController.swift */,
 				1873FAA624C0AAE50005480B /* petitionsViewController.swift */,
+				189A80D324C155B00030162A /* clothingViewController.swift */,
+				189A80D524C15A650030162A /* restaurantsViewController.swift */,
 				1873FAA424BF5DD90005480B /* callSenatorViewController.swift */,
 				52FF39C924BE324C009ACA71 /* Assets.xcassets */,
 				52FF39CB24BE324C009ACA71 /* LaunchScreen.storyboard */,
@@ -275,11 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FF39C224BE3246009ACA71 /* ViewController.swift in Sources */,
+				189A80D624C15A650030162A /* restaurantsViewController.swift in Sources */,
 				1873FAA524BF5DD90005480B /* callSenatorViewController.swift in Sources */,
 				52FF39BE24BE3246009ACA71 /* AppDelegate.swift in Sources */,
 				189A80D024C12B9F0030162A /* donationsViewController.swift in Sources */,
 				52FF39C024BE3246009ACA71 /* SceneDelegate.swift in Sources */,
 				1873FAA724C0AAE50005480B /* petitionsViewController.swift in Sources */,
+				189A80D424C155B00030162A /* clothingViewController.swift in Sources */,
 				189A80D224C1366D0030162A /* beautyViewController.swift in Sources */,
 				52FF39C824BE3246009ACA71 /* Share_Your_Voice.xcdatamodeld in Sources */,
 			);
@@ -455,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PU68T5BK2;
+				DEVELOPMENT_TEAM = QZLS37VKFN;
 				INFOPLIST_FILE = "Share Your Voice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,7 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PU68T5BK2;
+				DEVELOPMENT_TEAM = QZLS37VKFN;
 				INFOPLIST_FILE = "Share Your Voice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
